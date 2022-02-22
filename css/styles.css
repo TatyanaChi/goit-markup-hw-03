@@ -55,6 +55,10 @@ img {
   padding-bottom: 94px;
 }
 
+.section-half {
+  padding-bottom: 94px;
+}
+
 .container {
   display: flex;
   width: 1200px;
@@ -92,7 +96,7 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
 
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .header-container {
@@ -304,6 +308,9 @@ img {
 
 .title-jobs {
   margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
 }
 
 .jobs-list {
@@ -322,6 +329,9 @@ img {
 
 .title-our-team {
   margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
 }
 
 .team-list {
@@ -359,7 +369,7 @@ img {
 }
 
 .tile-list-item {
-  width: calc((100% - 60px) / 3);
+  width: calc((100% - 90px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
 }
@@ -375,10 +385,6 @@ img {
 /* .tile-list-item:not(:nth-last-child(-3 + n)) {
   margin-bottom: 30px;
 } */
-
-.tile-list-item:nth-last-child(-n + 3) {
-  margin-bottom: 0;
-}
 
 .tile-container-wrapper {
   border: 1px solid #eeeeee;
@@ -475,10 +481,13 @@ img {
 }
 /* =====start footer===== */
 
-.footer-container {
-  display: block;
+.footer {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.footer-container {
+  display: block;
 }
 
 .logo-link {
