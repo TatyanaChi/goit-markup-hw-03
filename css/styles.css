@@ -236,7 +236,7 @@ img {
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .filter-list-item {
